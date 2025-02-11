@@ -19,12 +19,12 @@ $dark:#88b4ad;
   
     // Media query for large and medium screens
     @media (min-width: 768px) {
-      background-image: url('/asset/background.jpg'); // Replace with your image path
+      background-image: url('./asset/background.jpg'); // Replace with your image path
     }
   
     // Media query for small screens
     @media (max-width: 767px) {
-        background-image: url('/asset/background-sm.jpg');
+        background-image: url('./asset/background-sm.jpg');
     }
   }
   h1{
